@@ -13,7 +13,11 @@ int count = 0;
         }
     }
 
-
+    for (int i = 0; i < arrayFinal.Length; i++)
+    {
+        Console.Write($"{arrayFinal[i]} ");
+    }
+  
 
 
 
